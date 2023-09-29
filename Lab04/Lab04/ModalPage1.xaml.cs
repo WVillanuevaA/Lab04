@@ -17,7 +17,7 @@ namespace Lab04
             InitializeComponent();
             btnClosePopup.Clicked += async (sender, e) =>
             {
-                await Navigation.PopModalAsync();
+                await Navigation.PopModalAsync(); 
             };
         }
     }
